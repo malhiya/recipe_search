@@ -44,17 +44,17 @@ const App = () => {
   }, []);
 
 
-  const averageCookingTime = recipes.length > 0
-  ? recipes.reduce((total, recipe) => total + recipe.cookingTime, 0) / recipes.length
+  const averageCookingTime = filteredRecipes.length > 0
+  ? filteredRecipes.reduce((total, recipe) => total + recipe.cookingTime, 0) / recipes.length
   : 0;
 
-  const averageIngredients = recipes.length > 0
-    ? recipes.reduce((total, recipe) => total + recipe.ingredients.length, 0) / recipes.length
+  const averageIngredients = filteredRecipes.length > 0
+    ? filteredRecipes.reduce((total, recipe) => total + recipe.ingredients.length, 0) / recipes.length
     : 0;
 
   // const shortestCookTime =  Math.min(...recipes.map(recipe => recipe.cookingTime || Infinity));
 
-  const lowestCalories =  Math.min(...recipes.map(recipe => recipe.calories || Infinity));
+  const lowestCalories =  Math.min(...filteredRecipes.map(recipe => recipe.calories || Infinity));
 
 
   // const handleVegetarianOption = () => {
