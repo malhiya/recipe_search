@@ -2,7 +2,7 @@
 
 Submitted by: **Malhiya Arnib**
 
-This web app: **Find a recipe by typing what you want to eat in the search bar! You can filter the reccipes based on how long it would take to cook the recipe**
+This web app: **Find a recipe by typing what you want to eat in the search bar! You can filter the recipes based on how long it would take to cook the recipe**
 
 Time spent: **12** hours spent in total
 
