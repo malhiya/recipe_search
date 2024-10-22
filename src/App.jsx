@@ -80,7 +80,7 @@ const App = () => {
     <div>
       <div className="header">
         <h1>Culinary Quest 🍲</h1>
-        <h3>Type in ingredient, cuisine type, or food to find a meal!</h3>
+        <h3>Type in an ingredient, cuisine type, or food to find a meal!</h3>
       </div>
 
       <br></br><br></br>
