@@ -2,7 +2,7 @@
 
 Submitted by: **Malhiya Arnib**
 
-This web app: **insert description**
+This web app: **Find a recipe by typing what you want to eat in the search bar! You can filter the recipes based on how long it would take to cook the recipe. Click on the recipe title to know more about the reccipe!**
 
 Time spent: **12** hours spent in total
 
@@ -30,7 +30,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/malhiya/recipe_search/blob/master/recipe_search_pt2_walkthrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with LiceCap  
@@ -40,8 +40,7 @@ GIF created with LiceCap
 [peek](https://github.com/phw/peek) for Linux. -->
 
 ## Notes
-
-Describe any challenges encountered while building the app.
+I had difficulty understanding Routes but I then saw the routes video resource that CodePath had in the Resources section. This helped me have a better understanding of links and routes. I also had trouble creating a chart so I asked chatGPT on how to go about it. I also googled it to find more resources. I then downloaded recharts and was able to create a histogram for my data.  
 
 ## License
 
