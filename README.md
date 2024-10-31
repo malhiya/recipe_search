@@ -42,7 +42,21 @@ GIF created with LiceCap
 ## Notes
 I had difficulty understanding Routes but I then saw the routes video resource that CodePath had in the Resources section. This helped me have a better understanding of links and routes. I also had trouble creating a chart so I asked chatGPT on how to go about it. I also googled it to find more resources. I then downloaded recharts and was able to create a histogram for my data.  
 
+## License
 
+    Copyright 2024 Malhiya Arnib
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
 
 
 # Web Development Project 5 - *Culinary Quest*
