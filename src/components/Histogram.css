@@ -1,0 +1,9 @@
+.recharts-label {
+    font-size: 14px; /* Adjust font size */
+    fill: #333; /* Change text color */
+  }
+
+  .chart-container {
+    margin: 20px; /* Add some margin around the chart */
+    padding-bottom: 40px; /* Add padding to make room for the X-axis label */
+  }

@@ -1,22 +1,18 @@
 import React from 'react';
 import './RecipeCard.css'
+import { Link } from 'react-router-dom';
 
-
-const RecipeCard = ({ recipe }) => (
+const RecipeCard = ({ recipe, index }) => (
     <div className="recipe-card">
     <img className="recipe-image" src={recipe.image} alt={recipe.title} />
     <div className="recipe-details">
-      <h2>{recipe.title}</h2>
+      <Link to={`/recipe/${index}`}>
+        <h2>{recipe.title}</h2>
+      </Link>
       <p><strong>Calories:</strong> {Math.ceil(recipe.calories)} cal</p>
       <p><strong> Time:</strong> {recipe.cookingTime} minutes</p>
-      <h3>Ingredients:</h3>
-      <ul>
-        {recipe.ingredients.map((ingredient, index) => (
-          <li key={index}>{ingredient}</li>
-        ))}
-      </ul>
     </div>
   </div>
   );
 
-export default RecipeCard;
+  export default RecipeCard;
